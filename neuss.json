@@ -1,0 +1,96 @@
+{
+  "name": "Freifunk Neuss",
+  "url": "https://wiki.freifunk-rheinland.net/Neuss",
+  "location": {
+    "city": "Neuss",
+    "country": "DE",
+    "lat": 51.19722,
+    "lon": 6.69289,
+    "address": {
+      "Name": "fnordeingang e.V.",
+      "Street": "Eichendorffstr. 44",
+      "Zipcode": "41464"
+    }
+  },
+  "contact": {
+    "email": "lukas@freifunk-rheinland.net",
+    "facebook": "https://www.facebook.com/FFRhein",
+    "twitter": "@FFRhein"
+  },
+  "metacommunity": "Freifunk Rheinland e.V. Domäne Rheinufer",
+  "state": {
+    "nodes": 400,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2014-12-28T11:19:14.412Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/",
+      "interval": "5 Minute",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/graph.html",
+      "interval": "5 Minute",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    },
+    {
+      "url": "http://ffmap.freifunk-rheinland.net/alfred.html",
+      "interval": "5 Minute",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Freifunk Rheinland e.V.",
+      "street": "Postfach 10 03 54",
+      "zip": "41003",
+      "city": "Mönchengladbach",
+      "url": "https://freifunk-rheinland.net",
+      "email": "kontakt@freifunk-rheinland.net"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE16430609674044542600",
+        "BIC": "GENODEM1GLS"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "16049"
+        }
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://images.freifunk-rheinland.net/images/gluon/rheinufer/",
+      "docs": "https://wiki.freifunk-rheinland.net/Firmware"
+    },
+    "dns": [
+      {
+        "domainname": "rheinufer"
+      }
+    ],
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.5"
+}
