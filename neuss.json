@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Neuss",
-  "url": "https://wiki.freifunk-rheinland.net/Neuss",
+  "url": "http://www.freifunk-neuss.de",
   "location": {
     "city": "Neuss",
     "country": "DE",
@@ -14,19 +14,19 @@
   },
   "contact": {
     "email": "lukas@freifunk-rheinland.net",
-    "facebook": "https://www.facebook.com/FFRhein",
-    "twitter": "@FFRhein"
+    "facebook": "https://www.facebook.com/FreifunkNeuss",
+    "twitter": "@FreifunkNeuss"
   },
   "metacommunity": "Freifunk Rheinland e.V. Domäne Rheinufer",
   "state": {
-    "nodes": 400,
+    "nodes": 50,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2014-12-28T11:19:14.412Z"
+    "lastchange": "2015-04-02T20:10:41.654Z"
   },
   "nodeMaps": [
     {
@@ -92,5 +92,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.5"
+  "api": "0.4.6"
 }
